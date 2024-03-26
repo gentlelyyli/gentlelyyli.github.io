@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.8" />
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html,
+      body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+        document.documentElement.classList.toggle('dark', true)
+      }
+    </script>
+    <link rel="icon" herf="/public/1.jpg"><title>白先生</title><meta name="description" content="对于博客的定义暂时不清楚，等待之后补充，目前暂为一个文档记录的平台">
+    <link rel="preload" href="/assets/style-BBqKdvbw.css" as="style"><link rel="stylesheet" href="/assets/style-BBqKdvbw.css">
+    <link rel="modulepreload" href="/assets/app-DUSeM4vh.js"><link rel="modulepreload" href="/assets/404.html-Xf2EYrzg.js">
+    <link rel="prefetch" href="/assets/index.html-CHqnMWc7.js" as="script"><link rel="prefetch" href="/assets/js01.html-_eBShzqS.js" as="script"><link rel="prefetch" href="/assets/js02.html-F1ewH6Hq.js" as="script"><link rel="prefetch" href="/assets/git使用方法.html-DAN4To3q.js" as="script"><link rel="prefetch" href="/assets/ssd.html-1aCulOZ6.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>How did we get here?</blockquote><a class="route-link" href="/">Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-DUSeM4vh.js" defer></script>
+  </body>
+</html>
